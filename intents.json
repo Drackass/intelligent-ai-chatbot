@@ -1,0 +1,484 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hello",
+          "Hi",
+          "Hey",
+          "Good morning",
+          "Good afternoon",
+          "Good evening",
+          "Hey there",
+          "Hi there",
+          "Hello there",
+          "Howdy",
+          "Greetings",
+          "What's up?",
+          "Yo",
+          "Hey, how are you?",
+          "Good day"
+        ],
+        "responses": [
+          "Hello!",
+          "Hi!",
+          "Hey there!",
+          "Good to see you!",
+          "Greetings!",
+          "Hi, how can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "Goodbye",
+          "See you later",
+          "Good night",
+          "See ya",
+          "Catch you later",
+          "Talk to you later",
+          "Farewell",
+          "Have a nice day",
+          "Have a good one",
+          "Bye bye",
+          "Later",
+          "See you soon",
+          "Take care"
+        ],
+        "responses": [
+          "Bye!",
+          "Goodbye!",
+          "See you later!",
+          "Take care!",
+          "Have a great day!",
+          "Catch you later!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thank you",
+          "Thanks",
+          "Thank you very much",
+          "Thanks a lot",
+          "Many thanks",
+          "Thanks a bunch",
+          "Thank you so much",
+          "Thanks for your help",
+          "I appreciate it",
+          "Much appreciated",
+          "Thx"
+        ],
+        "responses": [
+          "You're welcome!",
+          "My pleasure!",
+          "Anytime!",
+          "No problem!",
+          "Happy to help!",
+          "Glad I could assist!"
+        ]
+      },
+      {
+        "tag": "help",
+        "patterns": [
+          "Help",
+          "Can you help me?",
+          "I need help",
+          "I need some assistance",
+          "Can you assist me?",
+          "Help me please",
+          "I’m stuck",
+          "I’m having trouble",
+          "Need help",
+          "Assistance please"
+        ],
+        "responses": [
+          "Of course, how can I help?",
+          "I'm here to assist you.",
+          "Tell me what you need.",
+          "What can I do for you?",
+          "I'm ready to help!"
+        ]
+      },
+      {
+        "tag": "about_bot",
+        "patterns": [
+          "Who are you?",
+          "What are you?",
+          "Tell me about yourself",
+          "Are you a robot?",
+          "What can you do?",
+          "Who created you?",
+          "What is your name?",
+          "What is this?"
+        ],
+        "responses": [
+          "I'm a chatbot created to help you.",
+          "I'm an AI assistant here to help.",
+          "I can answer your questions and assist you.",
+          "I'm a friendly bot here to assist you."
+        ]
+      },
+      {
+        "tag": "hours",
+        "patterns": [
+          "What are your hours?",
+          "When are you open?",
+          "Opening hours?",
+          "When do you work?",
+          "Are you open now?",
+          "Business hours?"
+        ],
+        "responses": [
+          "We're open Monday to Friday, 9am to 6pm.",
+          "Our hours are 9am to 6pm, Monday through Friday.",
+          "We are available during regular business hours.",
+          "Feel free to reach us during 9 to 6 on weekdays."
+        ]
+      },
+      {
+        "tag": "location",
+        "patterns": [
+          "Where are you located?",
+          "What is your address?",
+          "Where can I find you?",
+          "Location?",
+          "Your office location?",
+          "Where is your store?"
+        ],
+        "responses": [
+          "We are located at 123 Main Street, Cityville.",
+          "Our office is at 123 Main Street.",
+          "You can find us at 123 Main Street.",
+          "Our store is located downtown at 123 Main Street."
+        ]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": [
+          "What payment methods do you accept?",
+          "Do you accept credit cards?",
+          "Can I pay with PayPal?",
+          "Payment options?",
+          "How can I pay?",
+          "Do you accept cash?"
+        ],
+        "responses": [
+          "We accept credit cards, PayPal, and cash.",
+          "You can pay via credit card, PayPal, or cash.",
+          "All major payment methods are accepted.",
+          "We support various payment options including credit cards and PayPal."
+        ]
+      },
+      {
+        "tag": "order_status",
+        "patterns": [
+          "Where is my order?",
+          "Order status?",
+          "Track my order",
+          "Has my order shipped?",
+          "Order tracking",
+          "When will my order arrive?"
+        ],
+        "responses": [
+          "Please provide your order number so I can check.",
+          "Let me check your order status, can you give me the order ID?",
+          "Your order is being processed and will ship soon.",
+          "You can track your order on our website with your order number."
+        ]
+      },
+      {
+        "tag": "complaint",
+        "patterns": [
+          "I want to complain",
+          "I'm not happy",
+          "This is bad",
+          "I have a complaint",
+          "I want to report a problem",
+          "This is unacceptable"
+        ],
+        "responses": [
+          "I'm sorry to hear that. Can you tell me more about the issue?",
+          "We take complaints seriously. Please explain what happened.",
+          "Sorry for the inconvenience. How can I assist to fix this?",
+          "Please provide details so we can help resolve your issue."
+        ]
+      },
+      {
+        "tag": "cancel_order",
+        "patterns": [
+          "I want to cancel my order",
+          "Cancel order",
+          "How do I cancel my order?",
+          "Can I cancel my order?",
+          "Cancel my purchase"
+        ],
+        "responses": [
+          "Please provide your order number to proceed with cancellation.",
+          "I can help you cancel your order, can you share the order ID?",
+          "Your cancellation request has been received.",
+          "Let me check if your order can be cancelled."
+        ]
+      },
+      {
+        "tag": "refund",
+        "patterns": [
+          "I want a refund",
+          "How do I get a refund?",
+          "Refund my order",
+          "Can I have a refund?",
+          "Return and refund"
+        ],
+        "responses": [
+          "Please provide your order number and reason for refund.",
+          "Refunds are processed within 5-7 business days.",
+          "Let me help you start the refund process.",
+          "I will guide you through the refund procedure."
+        ]
+      },
+      {
+        "tag": "pricing",
+        "patterns": [
+          "How much does it cost?",
+          "What is the price?",
+          "Pricing details?",
+          "Cost of your services?",
+          "Price list"
+        ],
+        "responses": [
+          "Our pricing depends on the product or service. Can you specify?",
+          "Prices vary; please check our website for detailed info.",
+          "I can send you the price list if you want.",
+          "Let me know which product you want pricing for."
+        ]
+      },
+      {
+        "tag": "products",
+        "patterns": [
+          "What products do you offer?",
+          "Tell me about your products",
+          "Product list",
+          "What do you sell?",
+          "Show me your products"
+        ],
+        "responses": [
+          "We offer a variety of products, including X, Y, and Z.",
+          "Our main products include A, B, and C.",
+          "You can browse our full product catalog on our website.",
+          "Let me know what type of product you're interested in."
+        ]
+      },
+      {
+        "tag": "services",
+        "patterns": [
+          "What services do you provide?",
+          "Tell me about your services",
+          "Service list",
+          "What can you do?",
+          "Services offered"
+        ],
+        "responses": [
+          "We provide consulting, support, and training services.",
+          "Our services include installation, maintenance, and support.",
+          "Please specify which service you want to know about.",
+          "We offer a range of services tailored to your needs."
+        ]
+      },
+      {
+        "tag": "hours_weekend",
+        "patterns": [
+          "Are you open on weekends?",
+          "Weekend hours?",
+          "Do you work on Saturday?",
+          "Open on Sunday?"
+        ],
+        "responses": [
+          "We are closed on weekends.",
+          "Our office is closed Saturday and Sunday.",
+          "We only operate Monday to Friday.",
+          "No weekend service, sorry."
+        ]
+      },
+      {
+        "tag": "thanks_positive",
+        "patterns": [
+          "Great, thanks!",
+          "Awesome, thank you!",
+          "Thanks a lot for your help!",
+          "Thank you, that's helpful."
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad I could help!",
+          "Anytime!",
+          "Happy to assist!"
+        ]
+      },
+      {
+        "tag": "name_query",
+        "patterns": [
+          "What is your name?",
+          "Who am I talking to?",
+          "Your name?",
+          "Can you tell me your name?"
+        ],
+        "responses": [
+          "I'm your friendly assistant.",
+          "You can call me ChatBot.",
+          "I'm an AI assistant created to help you.",
+          "I don’t have a personal name, but I'm here for you!"
+        ]
+      },
+      {
+        "tag": "age_query",
+        "patterns": [
+          "How old are you?",
+          "What's your age?",
+          "When were you created?"
+        ],
+        "responses": [
+          "I don’t have an age like humans do.",
+          "I was created recently to assist you.",
+          "Age is just a number for me!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "What's the weather today?",
+          "Is it raining?",
+          "Weather forecast?",
+          "Tell me the weather"
+        ],
+        "responses": [
+          "I don't have weather info, but you can check a weather app!",
+          "Sorry, I can’t provide weather updates right now.",
+          "Try a weather website or app for the latest forecast."
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "Tell me a joke",
+          "Make me laugh",
+          "Do you know any jokes?",
+          "Funny joke please"
+        ],
+        "responses": [
+          "Why don’t scientists trust atoms? Because they make up everything!",
+          "I would tell you a joke about time, but you didn’t like it.",
+          "Why did the scarecrow win an award? Because he was outstanding in his field!"
+        ]
+      },
+      {
+        "tag": "thanks_negative",
+        "patterns": [
+          "No thanks",
+          "I don’t want help",
+          "Not interested",
+          "Thanks, but no"
+        ],
+        "responses": [
+          "Alright, let me know if you change your mind.",
+          "Okay, I’m here if you need me.",
+          "No worries, have a good day!"
+        ]
+      },
+      {
+        "tag": "confirmation_yes",
+        "patterns": [
+          "Yes",
+          "Yeah",
+          "Sure",
+          "Absolutely",
+          "Of course",
+          "Definitely"
+        ],
+        "responses": [
+          "Great!",
+          "Okay!",
+          "Got it.",
+          "Thanks for confirming."
+        ]
+      },
+      {
+        "tag": "confirmation_no",
+        "patterns": [
+          "No",
+          "Nope",
+          "Not really",
+          "Nah",
+          "I don't think so"
+        ],
+        "responses": [
+          "Alright.",
+          "Okay, no problem.",
+          "Thanks for letting me know."
+        ]
+      },
+      {
+        "tag": "repeat",
+        "patterns": [
+          "Can you repeat that?",
+          "Say that again",
+          "I didn’t understand",
+          "Repeat please",
+          "Can you say it again?"
+        ],
+        "responses": [
+          "Sure! What part should I repeat?",
+          "Of course, I said:",
+          "Let me repeat that for you.",
+          "No problem, here it is again."
+        ]
+      },
+      {
+        "tag": "thanks_for_feedback",
+        "patterns": [
+          "Thanks for the info",
+          "Thank you for the feedback",
+          "Thanks for your help",
+          "Thank you!"
+        ],
+        "responses": [
+          "You're welcome!",
+          "Glad I could assist!",
+          "Happy to help!",
+          "Anytime!"
+        ]
+      },
+      {
+        "tag": "feedback_positive",
+        "patterns": [
+          "Good job",
+          "Well done",
+          "Excellent",
+          "Nice work",
+          "Perfect"
+        ],
+        "responses": [
+          "Thank you!",
+          "Glad you think so!",
+          "I appreciate it!",
+          "Thanks!"
+        ]
+      },
+      {
+        "tag": "feedback_negative",
+        "patterns": [
+          "That was bad",
+          "Not good",
+          "I don’t like that",
+          "Poor service"
+        ],
+        "responses": [
+          "Sorry to hear that.",
+          "I'll try to do better.",
+          "Thank you for your feedback.",
+          "I appreciate your honesty."
+        ]
+      }
+    ]
+  }
+  
